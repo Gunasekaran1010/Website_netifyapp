@@ -1,0 +1,51 @@
+.m-container{
+    margin-top: 100px;
+
+}
+
+.m-first>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.m-firsts>h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+
+.m-img>img{
+    width: 80vw;
+    margin: 40px 100px ;
+}
+
+.m-container.hrs {
+    background-color: red;
+}
+
+.hrs {
+    border-top: 3px solid red;
+}
+
+@media screen and (max-width: 767px) {
+
+    .m-img > img {
+        padding: 10px 10px;
+        margin-left: 10px;
+    }
+
+    .m-first > h2 {
+        font-size: 1em;
+        padding: 5px 15px;
+    }
+    .m-firsts > h4 {
+        font-size: 0.7em;
+        margin-left: 10px;
+        padding: 10px 15px ;
+    }
+    
+}

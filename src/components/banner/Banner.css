@@ -1,0 +1,57 @@
+.b-conatiner{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background-color: red;
+  
+
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.content>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: antiquewhite;
+}
+
+.content>div>i{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 767px){
+  .b-conatiner {
+     width: 350px;
+     height: 150px;
+     margin-bottom: 55px;
+     display: flex;
+     flex-direction: column;
+   
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content > div {
+
+    margin: 10px 10px 0 0;
+  }
+
+
+
+  .call-icon{
+    font-size: 0.6em;
+  }
+
+}
